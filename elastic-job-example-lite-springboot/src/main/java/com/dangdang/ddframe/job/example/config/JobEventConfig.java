@@ -27,10 +27,15 @@ import javax.sql.DataSource;
 
 @Configuration
 public class JobEventConfig {
-
+    /**
+     * 初始化数据源
+     */
     @Resource
     private DataSource dataSource;
 
+    /**
+     * 定义日志数据库事件溯源配置
+     */
     @Bean
     public JobEventConfiguration jobEventConfiguration() {
         return new JobEventRdbConfiguration(dataSource);

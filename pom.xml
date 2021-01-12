@@ -16,6 +16,8 @@
         <module>elastic-job-example-lite-springboot-exception</module>
         <module>elastic-job-example-lite-springboot-executor</module>
         <module>elastic-job-example-lite-springboot-shardingStrategy</module>
+        <module>elastic-job-example-lite-springboot-listen</module>
+        <module>elastic-job-example-lite-springboot-sync</module>
 
         <module>elastic-job-example-cloud</module>
         <module>elastic-job-example-quick-demo</module>
